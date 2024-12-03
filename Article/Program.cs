@@ -18,10 +18,41 @@ class Program
       new Book("Book 3", 2.39, 500, "123456789", 250),
     };
 
+    DiscountStrategy discountStrategy = DiscountStrategies.FixedPercentage;
+    DiscountStrategy discountStrategyType = DiscountStrategies.PercentageTypeArticle;
+
     foreach (var article in articles)
     {
       Console.WriteLine("Rent cost of : {0}", article.CalculateRent());
       article.PublishDetails();
+      Console.WriteLine("Rental cost with {0}", discountStrategy(article));
+      Console.WriteLine("Rental cost with {0} reduction for item type", discountStrategyType(article));
+    }
+  }
+
+  public delegate double DiscountStrategy(Article article);
+
+  public class DiscountStrategies
+  {
+    public static double FixedPercentage(Article article)
+    {
+      return article.Price * 0.9;
+    }
+    public static double PercentageTypeArticle(Article article)
+    {
+      switch (article.Type)
+      {
+        case ArticleType.Food:
+          return article.Price * 0.95;
+        case ArticleType.Drugstore:
+          return article.Price * 0.8;
+        case ArticleType.Clothing:
+          return article.Price * 0.7;
+        case ArticleType.Leisure:
+          return article.Price * 0.85;
+        default:
+          return article.Price;
+      }
     }
   }
 

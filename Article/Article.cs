@@ -10,7 +10,12 @@ namespace ArticleApp
     Leisure
   }
 
-  class Article
+  interface IRentable
+  {
+    double CalculateRent();
+  }
+
+  class Article : IRentable
   {
     public string Name;
     public double Price;
@@ -54,6 +59,11 @@ namespace ArticleApp
       {
         Console.WriteLine("Invalid quantity. Check that quantity is positive and does not exceed stock.");
       }
+    }
+
+    public virtual double CalculateRent()
+    {
+      return Price * 0.90;
     }
   }
 }

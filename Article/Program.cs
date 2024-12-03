@@ -1,4 +1,7 @@
 ﻿using ArticleApp;
+using BookApp;
+using DiscApp;
+using VideoApp;
 class Program
 {
   public static void Main(string[] args)
@@ -7,6 +10,18 @@ class Program
     Console.WriteLine("Article sucesful created!");
     newArticle.DisplayItem();
     GeneratedTable();
+
+    List<Article> articles = new List<Article>
+    {
+      new Video("Video 1", 2.90, 1, 120),
+      new Disc("Disc 2", 19.99, 85, "Death Row Records"),
+      new Book("Book 3", 2.39, 500, "123456789", 250),
+    };
+
+    foreach (var article in articles)
+    {
+      Console.WriteLine($"Rent cost of : {0}", article.CalculateRent());
+    }
   }
 
   public static Article CreateArticleFromUserInput()

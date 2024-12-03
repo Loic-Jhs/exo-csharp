@@ -12,3 +12,4 @@ C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\refint\A
 C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.pdb
 C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.genruntimeconfig.cache
 C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\ref\Article.dll
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.sourcelink.json

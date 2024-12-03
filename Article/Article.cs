@@ -15,7 +15,7 @@ namespace ArticleApp
     double CalculateRent();
   }
 
-  class Article : IRentable
+  class Article : PublicationApp.Publication, IRentable
   {
     public string Name;
     public double Price;
@@ -64,6 +64,11 @@ namespace ArticleApp
     public virtual double CalculateRent()
     {
       return Price * 0.90;
+    }
+
+    public override void PublishDetails()
+    {
+      throw new NotImplementedException();
     }
   }
 }

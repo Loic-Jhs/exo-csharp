@@ -1,6 +1,5 @@
 using System;
-
-using System;
+using ArticleApp;
 
 namespace BookApp
 {
@@ -15,6 +14,11 @@ namespace BookApp
     {
       Isbn = isbn;
       PagesNb = pagesNb;
+    }
+
+    public override void PublishDetails()
+    {
+      Console.WriteLine("Book: Name : {0}, Price : {1}, Quantity : {2}, Type : {3}, ISBN : {4}, Number of pages : {5}", Name, Price, Quantity, ArticleType.Leisure, Isbn, PagesNb);
     }
   }
 }

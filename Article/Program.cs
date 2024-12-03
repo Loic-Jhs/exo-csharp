@@ -20,7 +20,8 @@ class Program
 
     foreach (var article in articles)
     {
-      Console.WriteLine($"Rent cost of : {0}", article.CalculateRent());
+      Console.WriteLine("Rent cost of : {0}", article.CalculateRent());
+      article.PublishDetails();
     }
   }
 

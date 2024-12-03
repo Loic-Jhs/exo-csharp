@@ -1,0 +1,14 @@
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\bin\Debug\net9.0\Article.exe
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\bin\Debug\net9.0\Article.deps.json
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\bin\Debug\net9.0\Article.runtimeconfig.json
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\bin\Debug\net9.0\Article.dll
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\bin\Debug\net9.0\Article.pdb
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.AssemblyInfoInputs.cache
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.AssemblyInfo.cs
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.csproj.CoreCompileInputs.cache
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.dll
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\refint\Article.dll
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.pdb
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\Article.genruntimeconfig.cache
+C:\Users\loic.jouhans\dev\esiee\c#net\lesBases\Article\obj\Debug\net9.0\ref\Article.dll
